@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  min-height: 100px;
+}
+
+.weather-app {
+  border: 10px solid #fe85a3;
+  border-radius: 16px;
+  box-shadow: 3px 3px #e0d9db, -1em 0 0.4em #e0d9db;
+  padding: 40px;
+  margin: 40px;
+}
+.searchbox {
+  margin-top: 0px;
+  margin-left: 100px;
+  float: left;
+}
+#button {
+  margin-top: -35px;
+  width: 75px;
+  font-size: 15px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+
+.local {
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0px;
+  margin-right: 200px;
+  color: #ac48bc;
+}
+.partly {
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: -55px;
+}
+
+.tophr {
+  margin-top: 10px;
+  background-color: #5a6276;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.current {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.temp-info {
+  color: #587ddb;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -75px;
+  margin-left: 250px;
+}
+.temp {
+  font-size: 40px;
+  color: #ac48bc;
+}
+#cel-link {
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#fah-link {
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.low-temp {
+  font-size: 20px;
+  font-weight: bold;
+  color: #68b7f7;
+  text-align: center;
+}
+.date {
+  margin-top: -75px;
+  margin-left: 100px;
+}
+
+.bttmhr {
+  background-color: #5a6276;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.days {
+  text-align: center;
+  color: #68b7f7;
+}
+.dates {
+  text-align: center;
+  margin-bottom: -20px;
+  color: #68b7f7;
+}
+
+.forecast {
+  border: 1px solid rgb(148, 145, 145);
+  text-align: center;
+  color: #596aca;
+  border-radius: 4px;
+}
